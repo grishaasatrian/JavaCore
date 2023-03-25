@@ -10,8 +10,8 @@ public class FindPrime {
         if (num < 2) isPrime = false;
         else isPrime = true;
 
-        for(int i = 2; i <= num/i; i++) {
-            if (( num % i) == 0) {
+        for (int i = 2; i <= num / i; i++) {
+            if ((num % i) == 0) {
                 isPrime = false;
                 break;
             }

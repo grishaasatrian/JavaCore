@@ -4,7 +4,7 @@ public class ArrayExampleDemo {
 
     public static void main(String[] args) {
         ArrayExample ae = new ArrayExample();
-        char[] charArray = {' ', 'h', 'e',' ','l','l','o', ' ',' '};
+        char[] charArray = {' ', 'h', 'e', ' ', 'l', 'l', 'o', ' ', ' '};
         ae.trim(charArray);
         System.out.println();
 

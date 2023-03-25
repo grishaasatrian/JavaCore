@@ -10,7 +10,7 @@ public class Test {
 
     // return true if o is equal to the invoking object
     boolean equalTo(Test o) {
-        if(o.a == a && o.b == b) return true;
+        if (o.a == a && o.b == b) return true;
         else return false;
     }
 }

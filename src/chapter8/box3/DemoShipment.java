@@ -10,14 +10,14 @@ public class DemoShipment {
         vol = shipment1.volume();
         System.out.println("Volume of shipment1 is " + vol);
         System.out.println("Weight of shipment1 is "
-                             + shipment1.weight);
+                + shipment1.weight);
         System.out.println("Shipping cost: $" + shipment1.cost);
         System.out.println();
 
         vol = shipment2.volume();
         System.out.println("Volume of shipment2 is " + vol);
         System.out.println("Weight of shipment2 is "
-                             + shipment2.weight);
+                + shipment2.weight);
         System.out.println("Shipping cost: $" + shipment2.cost);
     }
 }

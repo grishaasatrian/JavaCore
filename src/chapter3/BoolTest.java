@@ -19,11 +19,11 @@ public class BoolTest {
                     b = false;
 
                     {
-                        System.out.println ("This is not executed.");
+                        System.out.println("This is not executed.");
 
                         // outcome of a relational operator is a boolean value
                         {
-                            System.out.println ("10 > 9 is " + (10 > 9));
+                            System.out.println("10 > 9 is " + (10 > 9));
                         }
                     }
                 }

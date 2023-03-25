@@ -6,9 +6,9 @@ public class ForEach {
         int sum = 0;
 
         //use for-each style for to display and sum the values
-        for(int x : nums) {
-            System.out.println("Value is: " +x);
-            sum +=x;
+        for (int x : nums) {
+            System.out.println("Value is: " + x);
+            sum += x;
         }
         System.out.println("Summation: " + sum);
     }

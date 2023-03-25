@@ -3,7 +3,7 @@ package homework.homework4;
 public class CharArrayExample {
 
     public static void main(String[] args) {
-        char [] chars ={' ','j',' ', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
+        char[] chars = {' ', 'j', ' ', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
         char c = 'o';
         int count = 0;
         for (char aChar : chars) {
@@ -19,7 +19,7 @@ public class CharArrayExample {
 
         System.out.println();
 
-        if(chars[chars.length -2] == 'l' && chars[chars.length -1] == 'y') {
+        if (chars[chars.length - 2] == 'l' && chars[chars.length - 1] == 'y') {
             System.out.println(true);
         } else {
             System.out.println(false);

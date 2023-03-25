@@ -10,7 +10,7 @@ public class UseStatic {
         System.out.println("b = " + b);
     }
 
-    static{
+    static {
         System.out.println("Static block initialized.");
         b = a * 4;
     }

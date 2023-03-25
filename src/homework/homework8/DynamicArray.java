@@ -10,7 +10,7 @@ public class DynamicArray {
     //ստուգել եթե մասիվի մեջ տեղ չկա-> կանչել extend()
     //և ավելացնենք
     public void add(int value) {
-        if(size == array.length) {
+        if (size == array.length) {
             extend();
         }
         array[size++] = value;
@@ -30,7 +30,7 @@ public class DynamicArray {
     //եթե տրված ինդեքսը մեր ունեցած մասիվի ինդեքսի սահմաններում է, վերադարձնել
     // մասիվի index-երրորդ էլեմենտը։ Հակառակ դեպքում վերադարձնել -1։
     public int getByIndex(int index) {
-        if(index < 0 || index > size -1) {
+        if (index < 0 || index > size - 1) {
             System.out.println("Wrong Index");
             return -1;
         }
@@ -48,7 +48,7 @@ public class DynamicArray {
     //ջնջել մասիվի index-երորդ էլեմենտը
     //եթե չկա նման ինդեքսով էլեմենտ, տպել որ չկա նման էլեմենտ
     public void deleteByIndex(int index) {
-        if(index < 0 || index > size - 1) {
+        if (index < 0 || index > size - 1) {
             System.out.println("Wrong Index");
             return;
         }
@@ -62,7 +62,7 @@ public class DynamicArray {
     //Հին արժեքը կկորի
     //եթե նման ինդեքսով էլեմենտ չկա, գրում ենք որ չկա։
     public void set(int index, int value) {
-        if(index < 0 || index > size - 1) {
+        if (index < 0 || index > size - 1) {
             System.out.println("Wrong Index");
             return;
         }
@@ -72,15 +72,15 @@ public class DynamicArray {
     //ավելացնել տրված value-ն տրված ինդեքսում, իսկ էղած էլեմենտները մի հատ աջ տանել։
     //Եթե չկա նման ինդեքս տպել որ չկա
     public void add(int index, int value) {
-        if(index < 0 || index > size - 1) {
+        if (index < 0 || index > size - 1) {
             System.out.println("Wrong Index");
             return;
         }
-        if(size == array.length) {
+        if (size == array.length) {
             extend();
         }
         for (int i = size; i >= index; i--) {
-            array[i] = array[i-1];
+            array[i] = array[i - 1];
         }
         array[index] = value;
         size++;
@@ -89,10 +89,10 @@ public class DynamicArray {
     //Վերադարձնել true եթե տրված value-ն կա մեր մասիվի մեջ, եթե ոչ false
     public boolean exists(int value) {
         for (int i = 0; i < size; i++) {
-            if(array[i] == value) {
-            return true;
+            if (array[i] == value) {
+                return true;
+            }
         }
-    }
         return false;
     }
 
@@ -100,7 +100,7 @@ public class DynamicArray {
     //եթե չկա -1
     public int getIndexByValue(int value) {
         for (int i = 0; i < size; i++) {
-            if(array[i] == value) {
+            if (array[i] == value) {
                 return i;
             }
         }

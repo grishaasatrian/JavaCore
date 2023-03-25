@@ -1,7 +1,7 @@
 package chapter8.a7;
 
 public class A {
-    void callme(){
+    void callme() {
         System.out.println("Inside A's callme method");
     }
 }

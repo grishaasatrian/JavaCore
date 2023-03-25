@@ -6,6 +6,6 @@ public class CalculatorDemo {
         Calculator calculator = new Calculator();
 
         System.out.println(calculator.plus(4, 7));
-        System.out.println(calculator.divide(5,0));
+        System.out.println(calculator.divide(5, 0));
     }
 }

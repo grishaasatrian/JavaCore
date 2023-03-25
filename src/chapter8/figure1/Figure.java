@@ -14,7 +14,7 @@ abstract class Figure {
 }
 
 class Rectangle extends Figure {
-    Rectangle(double a, double b){
+    Rectangle(double a, double b) {
         super(a, b);
     }
 

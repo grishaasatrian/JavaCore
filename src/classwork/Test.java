@@ -3,15 +3,16 @@ package classwork;
 public class Test {
     int a;
     static int b;
-    Test(int a){
+
+    Test(int a) {
         this.a = a;
     }
 
-    void printA(){
+    void printA() {
         System.out.println(a);
     }
 
-    static void printABC(){
+    static void printABC() {
         System.out.println("ABC");
     }
 }

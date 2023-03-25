@@ -11,7 +11,7 @@ public class Calculator {
     }
 
     int divide(int a, int b) {
-        if(b == 0) {
+        if (b == 0) {
             System.out.println("թիվը չի կարող բաժանվել 0-ի");
             return -1;
         }

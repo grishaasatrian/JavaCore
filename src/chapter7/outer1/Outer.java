@@ -18,6 +18,6 @@ public class Outer {
     }
 
     void showy() {
-    //    System.out.println(y); // error, y not known here!
+        //    System.out.println(y); // error, y not known here!
     }
 }

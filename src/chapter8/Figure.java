@@ -9,7 +9,7 @@ public class Figure {
         dim2 = b;
     }
 
-    double area(){
+    double area() {
         System.out.println("Area for Figure is undefined.");
         return 0;
     }
@@ -21,7 +21,7 @@ class Rectangle extends Figure {
     }
 
     // override area for rectangle
-    double area(){
+    double area() {
         System.out.println("Inside Area for Rectangle.");
         return dim1 * dim2;
     }

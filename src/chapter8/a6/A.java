@@ -9,7 +9,7 @@ public class A {
     }
 
     // display i and j
-    void show(){
+    void show() {
         System.out.println("i and j: " + i + " " + j);
     }
 }
@@ -24,7 +24,7 @@ class B extends A {
     }
 
     // overload show()
-    void show(String msg){
+    void show(String msg) {
         System.out.println(msg + k);
     }
 }

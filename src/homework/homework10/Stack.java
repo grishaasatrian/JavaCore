@@ -18,10 +18,13 @@ public class Stack {
     }
 
     public int pop() {
-    if(tos < 0) {
-        System.out.println("Ստեկը դատարկ է");
-        return 0;
+        if (tos < 0) {
+            return 0;
+        }
+        return array[tos--];
     }
-    return array[tos--];
+
+    public boolean isEmpty() {
+        return tos == -1;
     }
 }

@@ -12,7 +12,7 @@ public class Stack {
 
     // Push an item onto the stack
     void push(int item) {
-        if(tos == stck.length - 1) // use length member
+        if (tos == stck.length - 1) // use length member
             System.out.println("Stack is full.");
         else
             stck[++tos] = item;
@@ -20,11 +20,10 @@ public class Stack {
 
     // Pop an item from the stack
     int pop() {
-        if(tos < 0) {
+        if (tos < 0) {
             System.out.println("Stack underflow.");
             return 0;
-        }
-        else
+        } else
             return stck[tos--];
     }
 }
