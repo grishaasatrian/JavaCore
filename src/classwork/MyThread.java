@@ -10,7 +10,7 @@ public class MyThread implements Runnable {
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                e.printStackTrace();
             }
         }
     }
